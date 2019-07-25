@@ -327,6 +327,11 @@ public class Form extends javax.swing.JFrame {
 			String patternString = "%(" + StringUtils.join(tokens.keySet(), "|") + ")%";
              Pattern pattern = Pattern.compile(patternString);
              Matcher matcher = pattern.matcher(template);
+			 
+			 StringBuffer sb = new StringBuffer();
+             while(matcher.find()) {
+     		    matcher.appendReplacement(sb, tokens.get(matcher.group(1)));
+     		}
 	}
     
     }//GEN-LAST:event_jButton1ActionPerformed
