@@ -332,6 +332,8 @@ public class Form extends javax.swing.JFrame {
              while(matcher.find()) {
      		    matcher.appendReplacement(sb, tokens.get(matcher.group(1)));
      		}
+			matcher.appendTail(sb);
+     		String finalHTML = sb.toString();
 	}
     
     }//GEN-LAST:event_jButton1ActionPerformed
