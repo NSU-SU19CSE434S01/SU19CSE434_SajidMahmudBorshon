@@ -317,7 +317,10 @@ public class Form extends javax.swing.JFrame {
     private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField2ActionPerformed
-
+	
+	private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    		 Map<String,String> tokens = new HashMap<String,String>();
+	}
     
     }//GEN-LAST:event_jButton1ActionPerformed
 
