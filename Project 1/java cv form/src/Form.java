@@ -336,6 +336,7 @@ public class Form extends javax.swing.JFrame {
              String unigpa = jTextField14.getText();
              String fname = jTextField15.getText();
              String foccu = (String)jComboBox1.getSelectedItem();
+             String mname = jTextField16.getText();
 
              tokens.put("NAME:", name);
 			 
