@@ -325,6 +325,8 @@ public class Form extends javax.swing.JFrame {
              String contactNo = "CONTACT NO: " + jTextField3.getText();
              String email = "EMAIL: " + jTextField5.getText();
              String address = "ADDRESS: " + jTextField4.getText();
+             String school = jTextField6.getText();
+             
 
              tokens.put("NAME:", name);
 			 
