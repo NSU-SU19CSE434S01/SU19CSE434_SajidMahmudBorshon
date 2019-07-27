@@ -322,6 +322,7 @@ public class Form extends javax.swing.JFrame {
     		 Map<String,String> tokens = new HashMap<String,String>();
              String name = "NAME: " + jTextField1.getText() ;
              String age = "AGE: " + jTextField2.getText();
+             String contactNo = "CONTACT NO: " + jTextField3.getText();
 
              tokens.put("NAME:", name);
 			 
