@@ -327,6 +327,7 @@ public class Form extends javax.swing.JFrame {
              String address = "ADDRESS: " + jTextField4.getText();
              String school = jTextField6.getText();
              String schoolyear = jTextField10.getText();
+             String schoolgpa = jTextField12.getText();
 
              tokens.put("NAME:", name);
 			 
