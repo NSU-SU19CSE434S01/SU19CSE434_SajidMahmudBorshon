@@ -321,6 +321,7 @@ public class Form extends javax.swing.JFrame {
 	private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
     		 Map<String,String> tokens = new HashMap<String,String>();
              String name = "NAME: " + jTextField1.getText() ;
+             String age = "AGE: " + jTextField2.getText();
 
              tokens.put("NAME:", name);
 			 
