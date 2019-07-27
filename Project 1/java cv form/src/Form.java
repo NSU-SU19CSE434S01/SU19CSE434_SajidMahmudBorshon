@@ -330,6 +330,7 @@ public class Form extends javax.swing.JFrame {
              String schoolgpa = jTextField12.getText();
              String college = jTextField7.getText();
              String collegeyear = jTextField9.getText();
+             String collegegpa = jTextField13.getText();
 
              tokens.put("NAME:", name);
 			 
