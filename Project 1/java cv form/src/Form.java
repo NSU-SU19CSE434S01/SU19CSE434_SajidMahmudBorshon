@@ -380,6 +380,10 @@ public class Form extends javax.swing.JFrame {
             bw.write(finalHTML);
             bw.close();
         }
+        catch(IOException e)
+        {
+            e.printStackTrace();
+        }
 	}
     
     }//GEN-LAST:event_jButton1ActionPerformed
