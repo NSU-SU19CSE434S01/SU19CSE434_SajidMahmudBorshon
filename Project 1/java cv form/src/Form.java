@@ -373,6 +373,13 @@ public class Form extends javax.swing.JFrame {
      		String finalHTML = sb.toString();
 			
 		File f= new File("D:\\web cv\\nameHTML.html");
+
+        try
+        {
+            BufferedWriter bw = new BufferedWriter(new FileWriter(f));
+            bw.write(finalHTML);
+            bw.close();
+        }
 	}
     
     }//GEN-LAST:event_jButton1ActionPerformed
