@@ -120,5 +120,9 @@ public class Application_launch {
 			driver.findElement(By.xpath("//*[@id=\"guestform\"]/div[1]/div[2]/input")).sendKeys("Sajid Mahmud");
 			Thread.sleep(1000);
 			driver.findElement(By.xpath("//*[@id=\"guestform\"]/div[1]/div[3]/input")).sendKeys("Borshon");
+			Thread.sleep(1000);
+			driver.findElement(By.xpath("//*[@id=\"guestform\"]/div[2]/div[2]/input")).sendKeys("sajid.borshon@northsouth.edu");
+			Thread.sleep(1000);
+			driver.findElement(By.xpath("//*[@id=\"guestform\"]/div[2]/div[3]/input")).sendKeys("sajid.borshon@northsouth.edu");
 		}
 	}
