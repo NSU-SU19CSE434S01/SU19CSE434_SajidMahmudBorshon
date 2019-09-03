@@ -66,5 +66,27 @@ public class Application_launch {
 			driver.findElement(By.xpath("//*[@id=\"s2id_autogen3\"]/a/span[1]")).click();
 			Thread.sleep(1000);
 			driver.findElement(By.xpath("//*[@id=\"select2-drop\"]/div/input")).sendKeys("Malaysia");
+			Thread.sleep(1000);
+			driver.findElement(By.xpath("/html/body/div[18]/div/input")).sendKeys(Keys.RETURN);
+			
+			Thread.sleep(1000);
+			driver.findElement(By.xpath("//*[@id=\"tchkin\"]/div/input")).click();
+			Thread.sleep(1000);
+			
+			driver.findElements(By.cssSelector
+		            ("body > div:nth-child(16) > div.datepicker-days > table > tbody > tr:nth-child(5) > td:nth-child(5)")).get(0).click();
+			Thread.sleep(2000);
+
+//			driver.findElement(By.xpath("//*[@id=\"adults\"]/option[4]")).sendKeys(Keys.RETURN);
+			
+			Select select = new Select(driver.findElement(By.id("adults")));
+			Thread.sleep(1000);
+			select.selectByIndex(1);
+			Thread.sleep(1000);
+			
+			Select select2 = new Select(driver.findElement(By.id("tourtype")));
+			Thread.sleep(1000);
+			select2.selectByIndex(1);
+			Thread.sleep(2000);
 		}
 	}
