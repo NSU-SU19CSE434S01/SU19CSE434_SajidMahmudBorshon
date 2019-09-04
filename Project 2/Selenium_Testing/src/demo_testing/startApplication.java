@@ -145,6 +145,11 @@ public class Application_launch {
 			jse = (JavascriptExecutor)driver;
 			jse.executeScript("scroll(0,200)");
 			Thread.sleep(1000);
+			
+			driver.findElement(By.xpath("//*[@id=\"guestform\"]/div[8]/div/div[1]")).click();
+			Thread.sleep(1000);
+			driver.findElement(By.xpath("//*[@id=\"special\"]/div/textarea")).sendKeys("I wish to have authentic Bangladeshi food all the time");			
+			Thread.sleep(2000);
 		}
 	}
 }
