@@ -141,6 +141,10 @@ public class Application_launch {
 			Thread.sleep(1000);
 			driver.findElement(By.xpath("//*[@id=\"s2id_autogen1\"]/a")).sendKeys(Keys.RETURN);
 			Thread.sleep(1000);
+			
+			jse = (JavascriptExecutor)driver;
+			jse.executeScript("scroll(0,200)");
+			Thread.sleep(1000);
 		}
 	}
 }
