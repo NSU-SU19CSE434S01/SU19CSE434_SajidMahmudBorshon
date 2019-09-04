@@ -182,4 +182,15 @@ public class Application_launch {
 		
 		
 	}
+	
+	
+	public void signupLogin() {
+		 
+		try {
+			driver.findElement(By.xpath("/html/body/nav/div/div[1]/a/img")).click();
+			Thread.sleep(3000);
+
+			driver.get("https://www.phptravels.net/register");
+		}
+	}
 }
