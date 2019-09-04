@@ -165,6 +165,21 @@ public class Application_launch {
 			Thread.sleep(1000);
 			select4.selectByIndex(3);
 			Thread.sleep(1000);
+//			new WebDriverWait(driver, 20).until(
+//			          webDriver -> ((JavascriptExecutor) webDriver).executeScript("return document.readyState").equals("complete"));
+//			
+			
+			//Thread.sleep(6000);
+			//driver.close();
+			
+			
+
+			
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
+		
+		
 	}
 }
