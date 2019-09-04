@@ -128,5 +128,14 @@ public class Application_launch {
 			driver.findElement(By.xpath("//*[@id=\"guestform\"]/div[3]/div[2]/input")).sendKeys("01791912104");
 			Thread.sleep(1000);
 			driver.findElement(By.xpath("//*[@id=\"guestform\"]/div[4]/div[2]/input")).sendKeys("1197, East Shewrapara, Dhaka, Bangladesh");
+			Thread.sleep(1000);
+			
+			jse = (JavascriptExecutor)driver;
+			jse.executeScript("scroll(0,300)");
+			Thread.sleep(2000);
+			
+			driver.findElement(By.xpath("//*[@id=\"s2id_autogen1\"]/a")).click();
+			Thread.sleep(1000);
 		}
 	}
+}
