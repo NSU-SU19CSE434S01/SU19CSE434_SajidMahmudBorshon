@@ -136,6 +136,11 @@ public class Application_launch {
 			
 			driver.findElement(By.xpath("//*[@id=\"s2id_autogen1\"]/a")).click();
 			Thread.sleep(1000);
+
+			driver.findElement(By.xpath("//*[@id=\"s2id_autogen1\"]/a")).sendKeys("Bangladesh");
+			Thread.sleep(1000);
+			driver.findElement(By.xpath("//*[@id=\"s2id_autogen1\"]/a")).sendKeys(Keys.RETURN);
+			Thread.sleep(1000);
 		}
 	}
 }
