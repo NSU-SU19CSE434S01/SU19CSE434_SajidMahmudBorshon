@@ -156,7 +156,15 @@ public class Application_launch {
 			Thread.sleep(1000);
 			
 			
+			driver.findElement(By.xpath("//*[@id=\"body-section\"]/div[1]/div/div/div/div[1]/div[2]/div[4]/button")).click();
+			Thread.sleep(4000);
+			driver.findElement(By.xpath("//*[@id=\"body-section\"]/div[1]/div[2]/div[2]/center/button[2]")).click();
+			Thread.sleep(1000);
 			
+			Select select4 = new Select(driver.findElement(By.id("gateway")));
+			Thread.sleep(1000);
+			select4.selectByIndex(3);
+			Thread.sleep(1000);
 		}
 	}
 }
