@@ -244,6 +244,9 @@ public class Application_launch {
 		
 		try {
 			driver.get("https://www.phptravels.net/login");
+			
+			driver.findElement(By.xpath("//*[@id=\"loginfrm\"]/div[1]/div[5]/div/div[1]/input")).sendKeys("sajid.borshon@northsouth.edu");
+			Thread.sleep(1000);
 		}
 	}
 }
