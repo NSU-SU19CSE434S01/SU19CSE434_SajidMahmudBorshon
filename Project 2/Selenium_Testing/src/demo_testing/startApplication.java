@@ -249,6 +249,10 @@ public class Application_launch {
 			Thread.sleep(1000);
 			driver.findElement(By.xpath("//*[@id=\"loginfrm\"]/div[1]/div[5]/div/div[2]/input")).sendKeys("cse434project2");
 			Thread.sleep(1000);
+			
+			jse = (JavascriptExecutor)driver;
+			jse.executeScript("scroll(0,300)");
+			Thread.sleep(2000);
 		}
 	}
 }
