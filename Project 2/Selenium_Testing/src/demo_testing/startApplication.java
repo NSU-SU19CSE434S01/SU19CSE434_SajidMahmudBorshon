@@ -253,6 +253,13 @@ public class Application_launch {
 			jse = (JavascriptExecutor)driver;
 			jse.executeScript("scroll(0,300)");
 			Thread.sleep(2000);
+			
+			driver.findElement(By.xpath("//*[@id=\"loginfrm\"]/div[1]/div[5]/div/label")).click();
+			Thread.sleep(1000);
+			driver.findElement(By.xpath("//*[@id=\"loginfrm\"]/button")).click();
+			
+
+			
 		}
 	}
 }
