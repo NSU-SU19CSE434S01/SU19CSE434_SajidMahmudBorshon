@@ -202,6 +202,8 @@ public class Application_launch {
 			Thread.sleep(1000);
 			driver.findElement(By.xpath("//*[@id=\"headersignupform\"]/div[7]/input")).sendKeys("cse434project2");
 			Thread.sleep(1000);
+			driver.findElement(By.xpath("//*[@id=\"headersignupform\"]/div[8]/input")).sendKeys("cse434project2");
+			Thread.sleep(1000);
 		}
 	}
 }
