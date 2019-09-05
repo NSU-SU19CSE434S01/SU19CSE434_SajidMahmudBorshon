@@ -266,4 +266,10 @@ public class Application_launch {
 		}
 		
 	}
+	
+	public void closeBrowser() {
+		
+		driver.close();
+	}
+
 }
