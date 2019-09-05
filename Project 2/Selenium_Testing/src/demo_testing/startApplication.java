@@ -247,6 +247,8 @@ public class Application_launch {
 			
 			driver.findElement(By.xpath("//*[@id=\"loginfrm\"]/div[1]/div[5]/div/div[1]/input")).sendKeys("sajid.borshon@northsouth.edu");
 			Thread.sleep(1000);
+			driver.findElement(By.xpath("//*[@id=\"loginfrm\"]/div[1]/div[5]/div/div[2]/input")).sendKeys("cse434project2");
+			Thread.sleep(1000);
 		}
 	}
 }
