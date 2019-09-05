@@ -191,6 +191,8 @@ public class Application_launch {
 			Thread.sleep(3000);
 
 			driver.get("https://www.phptravels.net/register");
+			
+			driver.findElement(By.xpath("//*[@id=\"headersignupform\"]/div[3]/input")).sendKeys("Sajid Mahmud");
 		}
 	}
 }
