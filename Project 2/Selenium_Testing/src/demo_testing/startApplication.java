@@ -239,3 +239,11 @@ public class Application_launch {
 		}
 		
 	}
+	
+	public void logIn() {
+		
+		try {
+			driver.get("https://www.phptravels.net/login");
+		}
+	}
+}
