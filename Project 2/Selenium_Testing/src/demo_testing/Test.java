@@ -16,7 +16,7 @@ static WebDriver driver;
 
 	public static void main(String[] args) {
 		
-		Application_launch test = new Application_launch();
+		startApplication test = new startApplication();
 		test.invokeBrowser();
 		
 		

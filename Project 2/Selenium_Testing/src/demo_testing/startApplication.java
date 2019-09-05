@@ -15,7 +15,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 
-public class Application_launch {
+public class startApplication {
 	
 	static WebDriver driver;
 	
@@ -23,7 +23,7 @@ public class Application_launch {
 
 	public static void main(String[] args) {
 		
-		Application_launch test = new Application_launch();
+		startApplication test = new startApplication();
 		test.invokeBrowser();
 		
 		
