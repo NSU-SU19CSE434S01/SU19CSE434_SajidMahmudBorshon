@@ -207,6 +207,8 @@ public class Application_launch {
 			jse = (JavascriptExecutor)driver;
 			jse.executeScript("scroll(0,200)");
 			Thread.sleep(1000);
+			driver.findElement(By.xpath("//*[@id=\"headersignupform\"]/div[9]/button")).click();
+			Thread.sleep(1000);
 		}
 	}
 }
