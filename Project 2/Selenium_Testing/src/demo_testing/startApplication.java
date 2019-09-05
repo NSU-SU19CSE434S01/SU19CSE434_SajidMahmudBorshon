@@ -200,6 +200,8 @@ public class Application_launch {
 			Thread.sleep(1000);
 			driver.findElement(By.xpath("//*[@id=\"headersignupform\"]/div[6]/input")).sendKeys("sajid.borshon@northsouth.edu");
 			Thread.sleep(1000);
+			driver.findElement(By.xpath("//*[@id=\"headersignupform\"]/div[7]/input")).sendKeys("cse434project2");
+			Thread.sleep(1000);
 		}
 	}
 }
